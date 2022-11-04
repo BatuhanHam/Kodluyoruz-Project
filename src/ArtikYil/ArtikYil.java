@@ -23,7 +23,5 @@ public class ArtikYil {
         }
         else
             System.out.print(yil + " artık yıl değildir");
-
-
     }
 }
