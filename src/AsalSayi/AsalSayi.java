@@ -2,7 +2,6 @@ package AsalSayi;
 
 public class AsalSayi {
     public static void main(String[] args) {
-        boolean asalMi = true;
 
         int sayi = 100, sayac;
 
