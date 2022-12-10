@@ -8,23 +8,24 @@ public class Course {
     int note;
     int verbalNote;
 
-    Course(String name,String code, String prefix){
+    Course(String name, String code, String prefix) {
         this.name = name;
         this.code = code;
         this.prefix = prefix;
         int note = 0;
-        this.verbalNote =0;
+        this.verbalNote = 0;
 
     }
-    void addTeacher(Teacher teacher){
-        if (teacher.branch.equals(this.prefix)){
+
+    void addTeacher(Teacher teacher) {
+        if (teacher.branch.equals(this.prefix)) {
             this.teacher = teacher;
-        }
-        else
+        } else
             System.out.println("Öğrentmen ve Ders Bölümleri Uyuşmuyor.");
 
     }
-    void printTeacher(){
+
+    void printTeacher() {
         this.teacher.print();
     }
 }
